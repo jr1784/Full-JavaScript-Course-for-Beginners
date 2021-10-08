@@ -1,3 +1,24 @@
+// Using the foreach loop display this array of text to the DOM.
+//
+//     ['Bob', 'Jim', 'Matt', 'Mary', 'Suzy', 'Sarah']
+//
+// Hint: Each array element must appear in it's own html tag in the browser. Extra Credit: use map or reduce.
+
+// const names =  ['Bob', 'Jim', 'Matt', 'Mary', 'Suzy', 'Sarah']
+//
+// let target = document.getElementById('target')
+//
+// console.log(target)
+//
+// names.map(name=> target.innerHTML = target.innerHTML + `<p>${name}</p>`)
+//
+//
+// let p = document.createElement('p')
+// p.innerText = 'this is a p tag'
+// console.log(p)
+// target.appendChild(p)
+
+
 // document.getElementById("count-el").innerText = 5
 
 // let count = 5
@@ -55,16 +76,8 @@
 // <button id="save-btn" onClick="save()">SAVE BUTTON</button>
 // <script src="index.js"></script>
 
-let countEl = document.getElementById("count-el")
-let count = 0
-function increment(){
-    count = count + 1
-  countEl.innerText = count
-}
-
-function save(){
-    console.log(count)
-}
+// ?
+// }
 //
 // let username = "Per"
 //
@@ -83,3 +96,11 @@ function save(){
 // welcomeEl.innerText = greeting + name
 //
 // welcomeEl.innerText += " wav"
+// function handleClick(){
+//     const button = document.getElementById("target")
+//     if(button.style.backgroundColor==="blue"){
+//         button.style.backgroundColor=""
+//     } else {
+//         button.style.backgroundColor = "blue"
+//     }
+// }
